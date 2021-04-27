@@ -1,0 +1,121 @@
+@media(min-width: 782px){
+    .header .nav{
+        display: block!important;
+    }
+}
+
+@media (max-width: 991px){
+    .gallery-section .gallery-item,
+    .people-section .people-item,
+    .event-section .event-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media(max-width: 781px){
+.header .logo{
+    padding: 8px 15px;
+}
+    .header .hamburger-btn{
+        display: flex;
+        margin-right: 15px;
+    }
+    .header .nav{
+        flex: 0 0 100%;
+        max-width: 100%;
+        background-color: #ffffff;
+        border-top: 1px solid #cccccc;
+        display: none;
+    }
+    .header .nav ul li {
+        display: block;
+        margin-left: 10px;
+    }
+    .header .nav ul li a{
+        color: #555555;
+        padding: 10px 0;
+    }
+.home-section .home-content h1{
+    font-size: 60px;
+}
+
+.couple-section .couple{
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+}
+.couple-section .couple:nth-child(2){
+    margin-top: 50px;
+}
+.couple-section .couple:nth-child(2):before{
+    
+        content: none;
+    }
+    .couple-section .couple i.fa-heart{
+      display: none;
+    }
+    .story-section .story-img{
+        margin-top: 20px;
+    }
+    .story-section .story-img img{
+        width: 100%;
+    }
+    .story-section .story-content:before{
+        left: 20px;
+    }
+    .story-section .story-item i {
+        margin-left: 0px;
+        left: 5px;
+    }
+    .event-section .event-item:nth-child(even) {
+        transform: translateY(0px);
+    }
+    .event-section .event-item{
+        margin-bottom: 20px;
+        padding: 0 20px;
+    }
+    .event-section .event-item,
+    .story-section .story-text, .story-section .story-img{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .story-section .story-item:nth-child(odd) .story-text {
+        padding: 0 15px 0 50px;
+        text-align: left;
+    }
+    .story-section .story-item:nth-child(even) .story-img {
+        padding: 0 15px 0 50px;
+    }
+    .story-section .story-item:nth-child(even) .story-text,
+    .story-section .story-item:nth-child(odd) .story-img {
+        padding: 0 15px 0 50px;
+    }
+
+}
+
+
+@media(max-width: 674px){
+    .rsvp-section .form {
+        padding: 40px px;
+    }
+    .home-section .home-content h1{
+        font-size: 40px;
+    }
+    
+    .rsvp-section .form .input-group.w50,
+    .gallery-section .gallery-item,
+    .people-section .people-item{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .footer .footer-content .couple-name{
+        width: 290px;
+        height: 290px;
+    }
+    .footer .footer-content .couple-name p,
+    .footer .footer-content .couple-name h2{
+        font-size: 32px;
+    }
+   
+}

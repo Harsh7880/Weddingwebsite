@@ -1,0 +1,33 @@
+/*  pink color style    */
+.fa-music,
+.btn-1:hover,
+.people-section .people-item-inner .social-links  a i,
+.event-section .event-item-inner span,
+.story-section .story-item i,
+.couple-section .couple .social-links a i,
+.couple-section .couple i.fa-heart,
+.couple-section .couple h3,
+.story-section .story-text h3,
+.header .nav ul li a.active,
+.header .nav ul li a:hover{
+    color: #fb839e;
+}
+
+.fa-music,
+.btn-1,
+.people-section .people-item-inner .social-links  a i,
+.event-section .event-item-inner:before,
+.couple-section .couple .social-links a i,
+.couple-section .couple img{
+    border-color: #fb839e;
+}
+
+.fa-music.pause:after,
+.btn-1,
+.rsvp-section,
+.people-section .people-item-inner .social-links  a:hover i,
+.people-section .filter-btn.active,
+.event-section,
+.couple-section .couple .social-links  a:hover i{
+    background-color: #fb839e;
+}
